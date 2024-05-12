@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-text{
+  font-size: 1.3rem;
+  font-family:"Roboto Slab", serif;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  margin-left: .125em;
+  width: 15rem;
+}
+.first-sec h2 {
+  font-size: clamp(1rem, 4vw, 4rem);
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #141c3a;
+}
+.first-sec h4 {
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  font-style: normal;
+  color: #141c3a;
+}
+
+.second-sec .bg-image {
+  width: 55rem;
+position: relative;
+top: 3.3rem;
+}
+.third-sec {
+  width: 100%;
+  height: 25rem;
+  background-color: #141c3a;
+}
+.third-sec .headings {
+color: white;
+  font-family: serif;
+  padding-top: 5rem;
+  text-align: center;
+
+}
+.third-sec .headings h3{
+    font-size: clamp(1rem,2vw,1.5rem);
+}
+.third-sec .headings h5{
+    font-size: clamp(0.8rem,1vw,1.5rem);
+}
+
+.forth-sec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.forth-sec  i {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.forth-sec .card-col{
+  display: flex;
+  justify-content: space-evenly;
+
+ 
+}
+.forth-sec .card-col .card{
+  border-radius: 2rem;
+
+}
+ .forth-sec .card-col h4{
+    text-align: center;
+ }
+ .forth-sec .card-col p{
+    text-align: center;
+ }
+ .forth-sec .card-col .card-body{
+    text-align: center;
+    padding: 2rem;
+ }
+ .forth-sec .card-col .card-body span{
+color: #6e07f3;
+    font-size: 1.2rem;
+    font-weight: 450;
+ }
+  
+ .forth-sec .card-col .card-body h5{
+    font-size: 1rem;
+ }
+ .fifth-sec h2{
+  font-weight: 700;
+ }
+ .fifth-sec h5 > a{
+  text-decoration: none;
+ }
+ .fifth-sec .Portfolio-sec > .card{
+  border: none;
+ }
+ .fifth-sec .Portfolio-sec{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+
+
+}
+.fifth-sec .Portfolio-sec .card a{
+  text-decoration: none;
+}
+
+.fifth-sec .Portfolio-sec .card a > h3{
+  text-align: end;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+
+.fifth-sec .Portfolio-sec .card a > img{
+  transition: 0.3s ease-in-out;
+  background-color: 1px solid #141c3a;
+  border-radius: 3rem;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+.fifth-sec .Portfolio-sec .card a > img:hover{
+ transform: scale(1.1);
+ filter: blur(0);
+ -webkit-filter: blur(0);
+}
+.sixth-sec h2{
+  font-weight: 700;
+}
+.sixth-sec a{
+width: 15rem;
+height: 3.5rem;
+border: 2px solid #141c3a;
+border-radius: 5rem;
+transition: 0.5s ease-in-out;
+text-decoration: none;
+color: #141c3a;
+font-weight: 500;
+text-align: center;
+align-content: center;
+
+}
+.sixth-sec a:hover{
+background-color: #141c3a;
+color: white;
+}
+.seventh-sec h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.seventh-sec h3{
+  font-weight: 700;
+}
+
+.seventh-sec img{
+  width: 5rem;
+  margin-top: 2rem;
+  border-radius: 5rem;
+}
+
+.eight-sec{
+  height: 10rem;
+  background-color: #141c3a;
+  color: white;
+  align-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  position: relative;
+  top: 5rem;
+}
+.eight-sec h2{
+  font-weight: 700;
+}
+.eight-sec h6{
+  font-weight: 400;
+}
+
+.eight-sec  a{
+width: 14rem;
+height: 3.5rem;
+border-radius: 5rem;
+border: 2px solid white;
+text-decoration: none;
+color: white;
+align-content: center;
+transition: 0.5s ease-in-out;
+}
+.eight-sec  a:hover{
+  background-color: white;
+  color: #141c3a;
+}
+
+footer{
+  height: 40rem;
+  background-color: #6e07f3;
+}
+footer .img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 7rem;
+
+}
+footer .img img{
+  width: 5rem;
+}
+
+footer .text{
+  color: white;
+  font-weight: 100;
+  font-size: 2.3rem;
+  margin-top: 2rem;
+}
+footer a{
+  width: 3rem;
+  height: 1.8rem;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  border-radius: 1.6rem;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 1rem;
+  transition: 0.2s ease-in-out;
+}
+footer a:hover{
+  transform: scale(1.1);
+}
+footer a i {
+  font-size: 1.6rem;
+}
+/* Media Queries */
+
+@media only screen and (min-width:0px) and (max-width:770px) {
+  .fifth-sec .Portfolio-sec .card{
+    margin-top: 8rem;
+  }
+  .forth-sec .card-col{
+    width: 19rem;
+  }
+  .sixth-sec a{
+    margin-top: 1.5rem;
+  }
+}
