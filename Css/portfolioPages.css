@@ -2,11 +2,19 @@
   margin: 0;
   padding: 0;
 }
+.dropdown-menu{
+  background-color:#23262e;
+ 
+}
+.dropdown-menu a{
+  color: white;
+} 
 .dropdown:hover > .dropdown-menu {
   display: block;
   margin-left: 0.125em;
   width: 15rem;
 }
+
 .nav-text {
   font-size: 1.3rem;
   font-family: "Roboto Slab", serif;
@@ -17,11 +25,11 @@ h2 {
   font-size: clamp(1.5rem, 5vw, 2rem);
 }
 #wowslider-container1 {
-  width: 70%;
+  width: 90%;
 }
 
 .images-col .image {
-  width: 30rem;
+  width: 35rem;
 }
 
 
@@ -82,7 +90,7 @@ h2 {
   footer a{
     width: 3rem;
     height: 1.8rem;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     justify-content: center;
    align-items: center;

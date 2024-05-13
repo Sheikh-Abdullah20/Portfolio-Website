@@ -5,11 +5,20 @@
 .nav-text{
   font-size: 1.3rem;
   font-family:"Roboto Slab", serif;
+
 }
+.dropdown-menu{
+  background-color:#23262e;
+ 
+}
+.dropdown-menu a{
+  color: white;
+} 
 .dropdown:hover>.dropdown-menu {
   display: block;
   margin-left: .125em;
   width: 15rem;
+
 }
 .first-sec h2 {
   font-size: clamp(1rem, 4vw, 4rem);
@@ -43,9 +52,12 @@ color: white;
 }
 .third-sec .headings h3{
     font-size: clamp(1rem,2vw,1.5rem);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.third-sec .headings h5{
-    font-size: clamp(0.8rem,1vw,1.5rem);
+.third-sec .headings p{
+    font-size: clamp(0.8rem,1.2vw,1.5rem);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
 }
 
 .forth-sec{
